@@ -11,6 +11,6 @@ USER=`who | grep console | awk '{print $1}'`
 # Exit Lync
 sudo killall -KILL "Microsoft Lync"
 # Delete the keychain
-rm -rF "/Users/$USER/Library/Keychains/*@*"
+rm -rf "/Users/$USER/Library/Keychains/*@*"
 # Open Lync
 open -a /Applications/Microsoft\ Lync.app/
