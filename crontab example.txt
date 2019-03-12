@@ -1,0 +1,12 @@
+#This crontab example shows how to run a cronjob at the top of every hour (hour 0)
+#It took me way to long to figure this out. Hope this helps.
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday;
+# │ │ │ │ │                                       7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+0 * * * * /bin/sh /path/to/script
