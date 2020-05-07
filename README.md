@@ -8,3 +8,7 @@ This will copy the Crashplan log folder under /Library/Logs/Crashplan to the des
 ## Demote User
 
 Sometimes having a user as an admin is a neccesary but should not be kept long term. This script will remove the admin permissions and restore the user to Standard. Just update the username variable and run as root through your MDM.
+
+## TeamViewer ID
+
+Run it to get the TV ID. Its easy.
