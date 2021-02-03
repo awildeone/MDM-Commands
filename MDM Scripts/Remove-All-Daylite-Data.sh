@@ -20,8 +20,8 @@ for LIBDIR in /Users/*/ ; do
 		[ -e "$LIBDIR"Library/Caches/com.marketcircle.daylite ] && rm -r "$LIBDIR"Library/Caches/com.marketcircle.daylite
 
 		#ApplicationSupport
-		[ -e "$LIBDIR"Library/"Application Support"/com.marketcircle.Daylite-Helper/* ] && rm -r "$LIBDIR"Library/"Application Support"/com.marketcircle.Daylite-Helper/*
-		[ -e "$LIBDIR"Library/"Application Support"/com.marketcircle.daylite/* ] && rm -r "$LIBDIR"Library/"Application Support"/com.marketcircle.daylite/*
+		[ -e "$LIBDIR"Library/"Application Support"/com.marketcircle.Daylite-Helper ] && rm -r "$LIBDIR"Library/"Application Support"/com.marketcircle.Daylite-Helper
+		[ -e "$LIBDIR"Library/"Application Support"/com.marketcircle.daylite ] && rm -r "$LIBDIR"Library/"Application Support"/com.marketcircle.daylite
 
 
 done
