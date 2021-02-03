@@ -28,5 +28,5 @@ for LIBDIR in /Users/*/ ; do
 
 done
 		#RemoveApp
-    rm -R /Applications/Daylite.app
+		[ -d /Applications/Daylite.app ] && rm -R /Applications/Daylite.app
 echo "Remove Complete"
