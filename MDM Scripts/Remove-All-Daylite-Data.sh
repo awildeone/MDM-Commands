@@ -14,7 +14,7 @@ for LIBDIR in /Users/*/ ; do
 		[ -e "$LIBDIR"Library/Preferences/GR26KTJYTV.com.marketcircle.Daylite-Helper.plist ] && rm "$LIBDIR"Library/Preferences/GR26KTJYTV.com.marketcircle.Daylite-Helper.plist
 		[ -e "$LIBDIR"Library/Preferences/com.marketcircle.daylite.plist ] && rm "$LIBDIR"Library/Preferences/com.marketcircle.daylite.plist
 		[ -e "$LIBDIR"Library/Preferences/com.marketcircle.Daylite-Helper.plist ] && rm "$LIBDIR"Library/Preferences/com.marketcircle.Daylite-Helper.plist
-    [ -e "$LIBDIR"Library/Preferences/*com.marketcircle.daylite.clouddatabase* ] && rm "$LIBDIR"Library/Preferences/*com.marketcircle.daylite.clouddatabase*
+		[ -e "$LIBDIR"Library/Preferences/*com.marketcircle.daylite.clouddatabase* ] && rm "$LIBDIR"Library/Preferences/*com.marketcircle.daylite.clouddatabase*
 
 
 		#Caches
