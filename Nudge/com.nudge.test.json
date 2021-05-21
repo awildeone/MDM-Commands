@@ -38,10 +38,10 @@
     }
   ],
   "userExperience": {
-    "allowedDeferrals": 1,
-    "allowedDeferralsUntilForcedSecondaryQuitButton": 0,
+    "allowedDeferrals": 1000000,
+    "allowedDeferralsUntilForcedSecondaryQuitButton": 14,
     "approachingRefreshCycle": 6000,
-    "approachingWindowTime": 300,
+    "approachingWindowTime": 168,
     "elapsedRefreshCycle": 300,
     "imminentRefreshCycle": 120,
     "imminentWindowTime": 72,
@@ -64,16 +64,16 @@
     "updateElements": [
       {
         "_language": "en",
-        "actionButtonText": "Action/Update Button",
-        "informationButtonText": "information Button Text",
-        "mainContentHeader": "Main Content Header",
-        "mainContentNote": "Main Note (red text)",
-        "mainContentSubHeader": "mainContentSubHeader",
+        "actionButtonText": "Update Now",
+        "informationButtonText": "Learn more about this update",
+        "mainContentHeader": "What is this update?",
+        "mainContentNote": "What you need to know:",
+        "mainContentSubHeader": "MacOS Update"",
         "mainContentText": "This is the description lines. We can add general notes here.\n\n This can be spread out using line breaks \n\n Justlike this",
-        "mainHeader": "Main Header",
-        "primaryQuitButtonText": "Primary Quit Button",
-        "secondaryQuitButtonText": "Secondary Quit Button (related to approachingWindowTime)",
-        "subHeader": "subHeader: We are very cool IT"
+        "mainHeader": "Your computer needs to be updated",
+        "primaryQuitButtonText": "Later",
+        "secondaryQuitButtonText": "I Understand",
+        "subHeader": "Very Cool IT Company"
       },
       {
         "_language": "es",
